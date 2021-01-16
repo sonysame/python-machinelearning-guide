@@ -251,6 +251,3 @@ print("\n## 평균 검증 정확도:", np.mean(cv_accuracy))
     
 
 
-```python
-
-```
