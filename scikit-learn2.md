@@ -199,7 +199,7 @@ print('평균 검증 정확도:', np.round(np.mean(scores),4))
 **cross_validate()** 는 여러 개의 평가 지표를 반환하며, 학슫 데이터에 대한 성능 평가 지표와 수행시간도 제공
 
 ### GridSearchCV - 교차검증과 최적 하이퍼 파라미터 튜닝
-grid_parameters={'max_depth':[1,2,3],'min_samples_split':[2,3]}<br/>
+grid_parameters={'max_depth':[1,2,3],'min_samples_split':[2,3]} <br/>
 gridserachcv의 결과는 cv_results_에 저장
 
 최고 성능 파라미터 -> **best_params_** <br/>
