@@ -229,14 +229,6 @@ scores_df[['params', 'mean_test_score', 'rank_test_score', 'split0_test_score', 
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
