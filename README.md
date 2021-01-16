@@ -8,7 +8,7 @@
 * 레이블 인코딩
   - LabelEncoder
   - OneHotEncoder(pandas의 get_dummies 이용 가능)
- * 피처 스케일링(표준화, 정규화)
+* 피처 스케일링(표준화, 정규화)
   - StandardScaler
   - MinMaxScaler
 
