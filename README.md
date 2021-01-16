@@ -4,7 +4,7 @@
 
 ### 1) 데이터 전처리
 * fillna - 널 채워주기
-* 불필요 컬럼 제거
+* drop - 불필요 컬럼 제거
 * 레이블 인코딩
   - LabelEncoder
   - OneHotEncoder(pandas의 get_dummies 이용 가능)
