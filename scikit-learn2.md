@@ -174,7 +174,10 @@ for train_index, test_index in skfold.split(features, label):
 
 ### cross_val_score() : 교차 검증 API
 
-cross_val_score(estimator, X, y=None, scoring=None, cv=None, n_jobs=1, verbose=0, fit_params=None, pre_dispatch='2*n_jobs')
+cross_val_score(estimator, X, y=None, scoring=None, cv=None, n_jobs=1, verbose=0, fit_params=None, pre_dispatch='2\*n_jobs')<br/>
+estimator에 분류알고리즘 클래스인 Classifier 또는 회귀 알고리즘 클래스인 Regressor가 들어가는데, <br/>
+* Classifier인 경우 -> Stratified K 폴드 방식으로 분할
+* Regressor인 경우 -> K 폴드 방식으로 분할
 
 
 ```python
@@ -226,9 +229,6 @@ scores_df[['params', 'mean_test_score', 'rank_test_score', 'split0_test_score', 
 
 <div>
 <style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
