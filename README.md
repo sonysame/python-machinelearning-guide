@@ -32,4 +32,5 @@
 * F1스코어: 정밀도와 재현율 결합 -> f1_score()
 * ROC 곡선: FPR이 변할 때, TPR의 변화 -> roc_curve() -> 반환값: thresholds, fpr, tpr
 * AUC: ROC 곡선 밑의 면적(1에 가까울수록 좋은 수치) -> roc_auc_score()
+
 KAGGLE: 전처리 -> 표준화 -> split -> 학습 -> 분류임계값 반영하여 예측 -> 평가
