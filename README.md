@@ -20,3 +20,15 @@
   - cross_val_score()(교차검증 API)
   - GridSearchCV(교차검증 with 최적 하이퍼 파라미터 튜닝)
  
+## 평가
+* 정확도 -> accuracy_score()
+* 오차행렬(TN, FP, FN, TP) -> confusion_matrix()
+* 정밀도(precision) -> precision_score()
+* 재현율(recall) -> recall_score()
+* predict_proba() : 개별 데이터별로 예측 확률을 반환
+* Binarizer(threshold)로 분류임계값에 기반하여 -> fit_transform(predict)
+* precision_recall_curve() -> 반환값: thresholds, precision, recall
+
+* F1스코어: 정밀도와 재현율 결합 -> f1_score()
+* ROC 곡선: FPR이 변할 때, TPR의 변화 -> roc_curve() -> 반환값: thresholds, fpr, tpr
+* AUC: ROC 곡선 밑의 면적(1에 가까울수록 좋은 수치) -> roc_auc_score()
