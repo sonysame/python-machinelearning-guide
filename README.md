@@ -36,7 +36,7 @@
 KAGGLE: 전처리 -> 표준화 -> split -> 학습 -> 분류임계값 반영하여 예측 -> 평가
 
 ## 분류
-* Ensemble: 서로 다른/같은 머신러닝 알고리즘을 결합<br/>
+* Ensemble: 서로 다른/같은 머신러닝 알고리즘을 결합(Bagging, Boosting, Stacking)<br/>
 Ensemble의 기본 알고리즘->DecisionTree(지니계수 이용해 데이터 세트 분할/과적합->하이퍼파라미터조정)
 ### Bagging
 ### Boosting 
