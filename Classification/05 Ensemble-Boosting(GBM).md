@@ -5,7 +5,7 @@
 수행시간이 오래걸린다!
 
 ### AdaBoosting
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/24853452/107628309-ce354a00-6ca3-11eb-8b56-c68ce73fddce.png)
 
 가중치 업데이트를 경사 하강법 사용 -> **GBM**
 
