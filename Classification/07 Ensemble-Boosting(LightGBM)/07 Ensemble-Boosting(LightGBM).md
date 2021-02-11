@@ -11,8 +11,10 @@
 
 LightGBM는 리프 중심 트리 분할(Leaf Wise) 방식 -> 최대 손실값을 가지는 리프 노드를 지속적으로 분할하면서 트리의 깊이가 깊어지고 비대칭적인 규칙 트리 생성 -> 예측 오류 손실 최소화
 
-![image.png](attachment:image.png)
-![image-2.png](attachment:image-2.png)
+![image](https://user-images.githubusercontent.com/24853452/107628503-0dfc3180-6ca4-11eb-954a-468ce079ffe6.png)
+
+![image](https://user-images.githubusercontent.com/24853452/107628510-0fc5f500-6ca4-11eb-9f13-381ebbfd7b45.png)
+
 **num_leaves**의 개수를 중심으로 **min_child_samples(min_data_in_leaf)**, **max_depth**를 함께 조정하면서 모델의 복잡도를 줄여 튜닝
 
 
