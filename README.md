@@ -45,7 +45,7 @@ Ensemble의 기본 알고리즘->DecisionTree(지니계수 이용해 데이터 �
 * 모두 같은 유형의 알고리즘 기반/데이터 샘플링을 서로 다르게 가져가면서 학습 수행해 보팅 수행
 * 랜덤 포레스트
 ### Boosting 
-* GradientBoost
-* XGBoost
-* LightGBM
+* GBM(Gradient Boosting Machine)
+* XGBoost : 과적합규제, 조기중단, 병렬학습 -> 시간이 빨라짐
+* LightGBM : 리프중심트리분할(Leaf Wise) -> 시간이 더 빨라짐, 메모리 사용량 적음 / (10000건 이하의 데이터 세트 사용시 과적합 발생 쉬움)
 ### Stacking
