@@ -7,7 +7,9 @@
 * 극도로 불균형한 레이블 값 분포 해결-언더 샘플링, 오버 샘플링
 
 ### IQR(Inter Quantile Range)를 이용한 Outlier Removal
-![image.png](attachment:image.png)
+
+![image](https://user-images.githubusercontent.com/24853452/107628658-50be0980-6ca4-11eb-8b83-400e27f209d3.png)
+
 이상치: 3/4분위수에서 1.5\*IQR을 더한 지점 이상 AND 1/4분위수에서 1.5\*IQR을 뺀 지점 이하
 ### 언더 샘플링(Undersampling)
 * 많은 데이터 세트를 적은 데이터 세트 수준으로 감소시키는 방식 
@@ -19,8 +21,7 @@
 * 원본 데이터의 피처 값들을 아주 약간만 변경하여 증식
 * SMOTE(Synthetic Minority Over-sampling Technique): 적은 데이터 세트에 있는 개별 데이터들의 K 최근접 이웃(K Nearest Neightbor)을 찾아서 이 데이터와 K개 이웃들의 차이를 일정 값으로 만들어서 기존 데이터와 약간 차이가 나는 새로운 데이터 생성하는 방식
 
-![image-2.png](attachment:image-2.png)
-
+![image](https://user-images.githubusercontent.com/24853452/107628678-5582bd80-6ca4-11eb-9be4-9f5acbfbeff0.png)
 
 ```python
 import pandas as pd
@@ -602,5 +603,5 @@ get_model_train_eval(lgbm_clf, ftr_train=X_train_over, ftr_test=X_test, tgt_trai
      [   22   124]]
     정확도: 0.9996, 정밀도: 0.9118, 재현율: 0.8493, F1:0.8794, AUC:0.9814
     
+![image](https://user-images.githubusercontent.com/24853452/107628798-7d722100-6ca4-11eb-88d6-17fe354721fe.png)
 
-![image.png](attachment:image.png)
