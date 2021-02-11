@@ -8,8 +8,11 @@
 앙상블 알고리즘 중 비교적 빠른 수행 속도를 가지고 있으며, 랜덤 포레스트는 트리 기반 앙상블 알고리즘 중에 그래도 그나마 하이퍼 파라미터가 적은편!(트리기반 앙상블 알고리즘의 단점은 하이퍼 파라미터가 많고 그로 인해서 튜닝을 위한 시간이 많이 소모된다는 것이다)
 
 랜덤포레스트는 CPU 병렬 처리도 효과적으로 수행되어 빠른 학습이 가능하기 때문에 그래디언트 부스팅보다 예측 성능이 약간 떨어지더라도 랜덤 포레스트로 일단 기반 모델을 먼저 구축하는 경우가 많다.
-![image.png](attachment:image.png)
-![image-2.png](attachment:image-2.png)
+
+![image](https://user-images.githubusercontent.com/24853452/107628228-af36b800-6ca3-11eb-889b-44dcfcafe940.png)
+
+![image](https://user-images.githubusercontent.com/24853452/107628238-b1991200-6ca3-11eb-8f93-b6934a344df0.png)
+
 여러 개의 데이터 세트를 중첩되게 분리하는 것: **bootstrapping** 분할 방식 <br/>
 **RandomForestClassifier** 사용!
 
