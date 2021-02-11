@@ -2,8 +2,9 @@
 * 알고리즘으로 예측한 데이터를 기반으로 다시 예측을 수행
 * 개별 알고리즘의 예측 결과 데이터 세트를 최종적인 메타 데이터 세트로 만들어 별도의 ML 알고리즘으로 최종 학습 수행
 * 두종류 모델 필요 - 1) 개별적인 기반 모델 2) 개별 기반 모델의 예측 데이터를 학습 데이터로 만들어서 학습하는 최종 메타 모델
-![image.png](attachment:image.png) ![image-2.png](attachment:image-2.png)
 
+![image](https://user-images.githubusercontent.com/24853452/107628868-9c70b300-6ca4-11eb-896b-8d9f6c11b2dd.png)
+![image](https://user-images.githubusercontent.com/24853452/107628870-9e3a7680-6ca4-11eb-950d-475f70ba64c6.png)
 
 ```python
 import numpy as np
@@ -245,9 +246,8 @@ print('최종 메타 모델의 예측 정확도: {0:.4f}'.format(accuracy_score(
 
 * 과적합 개선을 위해 최종 메타 모델을 위한 데이터 세트를 만들때 교차 검증 기반으로 예측된 결과 데이터 세트 이용
 
-![image-2.png](attachment:image-2.png)
-![image-3.png](attachment:image-3.png)
-
+![image](https://user-images.githubusercontent.com/24853452/107628878-a1356700-6ca4-11eb-9eac-f3d2f2ab7fe5.png)
+![image](https://user-images.githubusercontent.com/24853452/107628886-a2ff2a80-6ca4-11eb-92c6-055f1f1b74e0.png)
 
 ```python
 from sklearn.model_selection import KFold
