@@ -4,7 +4,7 @@
 
 * Bagging: Random Forest
 * Boosting: 에이다 부스팅, Gradient Boosting, XGBoost, LightGBM
-![image-3.png](attachment:image-3.png)
+![image](https://user-images.githubusercontent.com/24853452/107627962-549d5c00-6ca3-11eb-82c7-c2838bf745e5.png)
 Voting: 서로 다른 알고리즘을 가진 분류기를 결합<br/>
 Bagging: 각각의 분류기가 모두 같은 유형의 알고리즘 기반이지만, 데이터 샘플링을 서로 다르게 가져가면서 학습 수행, 개별 Classifer에 할당된 학습 데이터는 원본 학습 데이터를 샘플링해 추출한다(Bootstrapping), 배깅 방식은 중첩을 허용한다.<br/>
 Boosting: 여러 개의 분류기가 순차적으로 학습을 수행하되, 다음 분류기에게는 가중치를 부여하면서 학습과 예측을 진행<br/>
@@ -14,7 +14,7 @@ Stacking: 여러가지 다른 모델의 예측 결괏값을 다시 학습 데이
 ## 보팅(Hard Voting, Soft Voting)
 하드보팅: 예측한 결괏값들중 다수의 분류기가 결정한 예측값을 최종 보팅 겨로가값으로 선정<br/>
 소프트보팅: 분류기들의 레이블 값 결정 확률을 모두 더하고 이를 평균해서 이들 중 확률이 가장 높은 레이블 값을 최종 보팅 결괏값으로 선정 -> 일반적으로 소프트 보팅 사용!
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/24853452/107627979-59faa680-6ca3-11eb-80e8-04b9d8d94da6.png)
 
 ### VotingClassifier
 
