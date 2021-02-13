@@ -72,4 +72,5 @@ Ensemble의 기본 알고리즘->DecisionTree(지니계수 이용해 데이터 �
 * XGBRegressor
 * LGBMRegressor
 * coef_속성이 없다!
+### 왜곡도 개선을 위한 데이터 변환과 원-핫 인코딩
 ### 스태킹 앙상블 모델
