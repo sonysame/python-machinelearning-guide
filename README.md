@@ -70,6 +70,6 @@ Ensemble의 기본 알고리즘->DecisionTree(지니계수 이용해 데이터 �
 * RandomForestRegressor
 * GradientBoostingRegressor
 * XGBRegressor
-* LGBMRegressor<br/>
-coef_속성이 없다!<br/>
-스태킹 앙상블 모델을 통한 회귀 예측 가능
+* LGBMRegressor
+* coef_속성이 없다!
+### 스태킹 앙상블 모델
