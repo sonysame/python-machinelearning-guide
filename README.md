@@ -54,10 +54,17 @@ Ensemble의 기본 알고리즘->DecisionTree(지니계수 이용해 데이터 �
 
 ## 회귀
 * 손실함수, 경사하강법: 수행시간의 문제 -> 확률적 경사 하강법(SGD)/미니 배치 확률적 경사 하강법
-* LinearRegression -> coefficients(회귀계수) 
+### LinearRegression -> coefficients(회귀계수) 
 * 다항 회귀-PolynomialFeatures -> 곡선이 되지만 선형 회귀!!
-* 규제 선형 모델-Ridge(L2규제), Lasso(L1규제), ElasticNet(L2+L1규제)
+### 규제 선형 모델-Ridge(L2규제), Lasso(L1규제), ElasticNet(L2+L1규제)
 * 선형 회귀 모델을 위한 데이터 변환-타깃/피처의 스케일링/정규화(주로 로그변환)
-* 로지스틱 회귀: 선형 회귀 방식을 분류에 적용한 알고리즘
-* 회귀 트리: DecisionTreeRegressor, RandomForestRegressor, GradientBoostingRegressor, XGBRegressor, LGBMRegressor - coef_속성이 없다!
-* 스태킹 앙상블 모델을 통한 회귀 예측 가능
+### 로지스틱 회귀
+* 선형 회귀 방식을 분류에 적용한 알고리즘
+### 회귀 트리
+* DecisionTreeRegressor
+* RandomForestRegressor
+* GradientBoostingRegressor
+* XGBRegressor
+* LGBMRegressor<br/>
+coef_속성이 없다!<br/>
+스태킹 앙상블 모델을 통한 회귀 예측 가능
