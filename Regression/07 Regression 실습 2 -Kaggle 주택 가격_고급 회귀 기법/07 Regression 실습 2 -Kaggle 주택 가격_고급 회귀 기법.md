@@ -1,6 +1,7 @@
 # 캐글 실습: 주택 가격-고급회귀기법 
 
-![image.png](attachment:image.png)
+![image](https://user-images.githubusercontent.com/24853452/107853572-2a41cf00-6e5a-11eb-8ffb-8342e7ad733e.png)
+
 
 
 ```python
@@ -21,19 +22,7 @@ house_df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
