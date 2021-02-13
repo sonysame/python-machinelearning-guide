@@ -58,6 +58,7 @@ Ensemble의 기본 알고리즘->DecisionTree(지니계수 이용해 데이터 �
 ### LinearRegression
 * coefficients(회귀계수) 
 ### 다항 회귀-PolynomialFeatures
+* coefficients(회귀계수)
 * 곡선이 되지만 선형 회귀!!
 ### 규제 선형 모델-Ridge(L2규제), Lasso(L1규제), ElasticNet(L2+L1규제)
 * coefficients(회귀계수) 
